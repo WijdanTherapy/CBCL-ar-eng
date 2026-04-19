@@ -545,7 +545,7 @@ def _t_band(t):
 
 def _styles():
     s={}
-    s['title']  = ParagraphStyle('t',fontName='Helvetica-Bold',fontSize=16,textColor=PDF_DARK,spaceAfter=4,alignment=TA_CENTER)
+    s['title']  = ParagraphStyle('t',fontName='Helvetica-Bold',fontSize=16,textColor=PDF_DARK,spaceAfter=8,alignment=TA_CENTER)
     s['sub']    = ParagraphStyle('sub',fontName='Helvetica',fontSize=9,textColor=PDF_WARM,spaceAfter=2,alignment=TA_CENTER)
     s['sec']    = ParagraphStyle('sec',fontName='Helvetica-Bold',fontSize=11,textColor=PDF_WARM,spaceBefore=14,spaceAfter=4)
     s['body']   = ParagraphStyle('body',fontName='Helvetica',fontSize=9.5,textColor=PDF_DARK,leading=14,spaceAfter=5)
